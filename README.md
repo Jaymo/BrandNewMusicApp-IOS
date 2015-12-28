@@ -4,9 +4,9 @@ that will allows user to preview a song once and if they like it they can purcah
 
 The main features are:
 
-1. User registration (through social media i.e Facebook, Twitter and Google)
+1. User registration  and login
 
-2. View featured artists 
+2. View featured artists  set from the web module
 
 3. Follow/Un-follow artists and genres
 
