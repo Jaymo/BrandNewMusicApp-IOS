@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="HJb-We-hKI" customClass="BNMHomeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HJb-We-hKI" id="7ez-RU-jzQ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_placeholder_male.png" translatesAutoresizingMaskIntoConstraints="NO" id="8fd-aU-5sP">
+                        <rect key="frame" x="9" y="10" width="70" height="70"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="2zX-zg-ce6"/>
+                            <constraint firstAttribute="height" constant="70" id="DAu-1n-Y8B"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="sRG-Tz-F2G">
+                        <rect key="frame" x="85" y="1" width="150" height="44"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="cHK-ys-PQS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xwr-6V-3mh">
+                        <rect key="frame" x="85" y="44" width="204" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="cJ8-3Q-y5f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuT-n3-UpQ">
+                        <rect key="frame" x="84" y="64" width="205" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="1S8-AF-lf7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Tracks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqH-c4-uF3">
+                        <rect key="frame" x="236" y="10" width="80" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="BOq-9F-wTo"/>
+                            <constraint firstAttribute="width" constant="80" id="mYs-oJ-1rW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9E-UG-0Ic">
+                        <rect key="frame" x="297" y="39" width="13" height="23"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="13" id="D4F-xh-a76"/>
+                            <constraint firstAttribute="height" constant="23" id="cK6-cJ-XgI"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="arrow.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xwr-6V-3mh" firstAttribute="top" secondItem="uqH-c4-uF3" secondAttribute="bottom" constant="10" id="0jf-UU-EJ1"/>
+                    <constraint firstAttribute="bottom" secondItem="Xwr-6V-3mh" secondAttribute="bottom" constant="23" id="7T8-UV-W6J"/>
+                    <constraint firstItem="sRG-Tz-F2G" firstAttribute="leading" secondItem="7ez-RU-jzQ" secondAttribute="leading" constant="85" id="CXB-dk-OB8"/>
+                    <constraint firstItem="8fd-aU-5sP" firstAttribute="top" secondItem="7ez-RU-jzQ" secondAttribute="top" constant="10" id="DsB-ld-DgC"/>
+                    <constraint firstAttribute="bottom" secondItem="uuT-n3-UpQ" secondAttribute="bottom" constant="3" id="T2f-j5-8bU"/>
+                    <constraint firstItem="Xwr-6V-3mh" firstAttribute="leading" secondItem="7ez-RU-jzQ" secondAttribute="leading" constant="85" id="TaO-zL-FIn"/>
+                    <constraint firstAttribute="trailing" secondItem="uuT-n3-UpQ" secondAttribute="trailing" constant="31" id="cq0-1T-359"/>
+                    <constraint firstAttribute="trailing" secondItem="K9E-UG-0Ic" secondAttribute="trailing" constant="10" id="cvl-6v-RSq"/>
+                    <constraint firstItem="8fd-aU-5sP" firstAttribute="leading" secondItem="7ez-RU-jzQ" secondAttribute="leading" constant="9" id="dIG-Hr-36k"/>
+                    <constraint firstAttribute="trailing" secondItem="sRG-Tz-F2G" secondAttribute="trailing" constant="85" id="fMg-aX-ZQg"/>
+                    <constraint firstItem="uuT-n3-UpQ" firstAttribute="leading" secondItem="7ez-RU-jzQ" secondAttribute="leading" constant="84" id="jPE-Yr-J5i"/>
+                    <constraint firstAttribute="trailing" secondItem="Xwr-6V-3mh" secondAttribute="trailing" constant="31" id="kzd-Vn-cTS"/>
+                    <constraint firstAttribute="trailing" secondItem="uqH-c4-uF3" secondAttribute="trailing" constant="4" id="mHK-oh-MVB"/>
+                    <constraint firstItem="K9E-UG-0Ic" firstAttribute="top" secondItem="uqH-c4-uF3" secondAttribute="bottom" constant="5" id="ryV-hh-VE0"/>
+                    <constraint firstItem="uuT-n3-UpQ" firstAttribute="top" secondItem="sRG-Tz-F2G" secondAttribute="bottom" constant="19" id="ywE-ye-adx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="artistArrowButton" destination="K9E-UG-0Ic" id="fjz-e1-moN"/>
+                <outlet property="artistCountLabel" destination="uqH-c4-uF3" id="Xou-tc-QxB"/>
+                <outlet property="artistImageView" destination="8fd-aU-5sP" id="fif-AO-403"/>
+                <outlet property="artistLatestLabel" destination="uuT-n3-UpQ" id="t5H-0H-3xT"/>
+                <outlet property="artistNameLabel" destination="sRG-Tz-F2G" id="zFm-Uc-Tzf"/>
+                <outlet property="artistStatusLabel" destination="Xwr-6V-3mh" id="zLD-UJ-tHH"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.png" width="13" height="23"/>
+        <image name="img_placeholder_male.png" width="70" height="70"/>
+    </resources>
+</document>
