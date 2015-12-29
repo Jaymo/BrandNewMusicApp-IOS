@@ -2,6 +2,27 @@
 IOS version of a project I have been working on for a while. Its called BNM and is used to share newly created music. The project is a music player
 that will allows user to preview a song once and if they like it they can purcahse it on Itunes (Via a web redirect)
 
+Building the App
+================
+
+###Requirements
+
+* Xcode 6.3 or higher
+* iOS 8.3 SDK
+
+###Getting the source
+
+First, check out the source, including all the dependencies:
+
+```
+git clone --recurse-submodules https://github.com/Jaymo/BrandNewMusicApp-IOS.git
+```
+
+###Building it
+
+Open the project, `BrandNewMusicApp.xcodeproj`, and build and run.
+
+
 The main features are:
 
 1. User registration  and login
